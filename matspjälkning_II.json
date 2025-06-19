@@ -1,0 +1,91 @@
+{
+    "name": "Man, 32 år",
+    "presentation": "En man i 30-års åldern kom in till sjukvården med gulaktig hy.",
+    "background": ". Symptomen hade föregåtts av fem dagars trötthet, illamående och influensaliknande symptom. Han beskrev också att avföringen var ljus (kittfärgad) och urinen mörk. Däremot hade han inte någon magsmärta, hade inte kräkts, ingen diarré eller kliande utslag. Han hade inte några insektsbett eller haft kontakt med någon sjuk person. Ingen speciell mat hade konsumerats den senaste veckan, men han hade varit utomlands (Brasilien) och där hade han ätit bland annat ostron grillade på stranden. Han var tidigare intravenös missbrukare, men hade slutat med det för tre år sedan.",
+    "clinical_findings": {
+        "general_condition": "Välnärd, svarar tydligt på frågor",
+        "scleral_icterus": true,
+        "abdominal_exam": "Svagt svullen höger övre buk",
+        "ct_abdomen": "Påverkan på gallblåsan, inga gallstenar",
+        "cholecystectomy_discussed": true,
+        "cholecystectomy_comment": "Först diskuterades ett kirurgiskt avlägsnande av gallblåsan, då man främst trodde att den var inflammerad, men sedan ändrade man sig."
+    },
+    "lab_results": {
+        "pulser": "106 slag/min",
+        "kroppstemperatur": "37.8 °C",
+        "blodtryck": "140/86 mmHg",
+        "syresättning": "98%",
+        "detailed": [
+            {
+                "test": "B-Leukocyter",
+                "value": "4,0 x 10^9/L",
+                "normal": "3,5 - 8,8 x 10^9/L"
+            },
+            {
+                "test": "B-Trombocyter",
+                "value": "88 x 10^9/L",
+                "normal": "145 - 348 x 10^9/L"
+            },
+            {
+                "test": "P-Natrium",
+                "value": "132 mmol/L",
+                "normal": "137 - 145 mmol/L"
+            },
+            {
+                "test": "P-Kalium",
+                "value": "3,8 mmol/L",
+                "normal": "3,5 - 4,4 mmol/L"
+            },
+            {
+                "test": "P-Glukos",
+                "value": "5,2 mmol/L",
+                "normal": "4,2 - 6,0 mmol/L"
+            },
+            {
+                "test": "P-Kreatinin",
+                "value": "999 µmol/L",
+                "normal": "60 - 105 µmol/L"
+            },
+            {
+                "test": "P-Alkaliskt fosfatas",
+                "value": "5,5 µkat/L",
+                "normal": "0,70 – 1,9 µkat/L"
+            },
+            {
+                "test": "P-PK(INR)",
+                "value": "2,1 INR",
+                "normal": "0,9 - 1,2 INR"
+            },
+            {
+                "test": "P-bilirubin",
+                "value": "105 µmol/L",
+                "normal": "5 - 25 µmol/L"
+            },
+            {
+                "test": "P-bilirubin konjugerat",
+                "value": "17 µmol/L",
+                "normal": "< 6 µmol/L"
+            },
+            {
+                "test": "ASAT",
+                "value": "5,7 µkat/L",
+                "normal": "0,25 - 0,75 µkat/L"
+            },
+            {
+                "test": "ALAT",
+                "value": "14,5 µkat/L",
+                "normal": "0,15 - 1,1 µkat/L"
+            },
+            {
+                "test": "Influensa A/B",
+                "value": "Negativ",
+                "normal": "Negativ/positiv"
+            },
+            {
+                "test": "HIV, snabbtest",
+                "value": "Negativ",
+                "normal": "Negativ/positiv"
+            }
+        ]
+    }
+}
