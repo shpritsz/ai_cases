@@ -30,7 +30,7 @@ def ask_patient(question, history):
     response = client.chat.completions.create(
         model=MODEL,
         messages=messages,
-        temperature=0.5
+        temperature=0.4
     )
     return response.choices[0].message.content
 
