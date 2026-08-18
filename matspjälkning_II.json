@@ -1,7 +1,7 @@
 {
     "name": "Man, 32 år",
     "presentation": "En man i 30-års åldern kom in till sjukvården med gulaktig hy.",
-    "background": ". Symptomen hade föregåtts av fem dagars trötthet, illamående och influensaliknande symptom. Han beskrev också att avföringen var ljus (kittfärgad) och urinen mörk. Däremot hade han inte någon magsmärta, hade inte kräkts, ingen diarré eller kliande utslag. Han hade inte några insektsbett eller haft kontakt med någon sjuk person. Ingen speciell mat hade konsumerats den senaste veckan, men han hade varit utomlands (Brasilien) och där hade han ätit bland annat ostron grillade på stranden. Han var tidigare intravenös missbrukare, men hade slutat med det för tre år sedan.",
+    "background": "Symptomen hade föregåtts av fem dagars trötthet, illamående och influensaliknande symptom. Patienten beskrev också att avföringen var ljus (kittfärgad) och urinen mörk. Däremot hade patienten inte någon magsmärta, hade inte kräkts, ingen diarré eller kliande utslag. Patienten hade inte några insektsbett eller haft kontakt med någon sjuk person. Ingen speciell mat hade konsumerats den senaste veckan, men han hade varit utomlands (Brasilien) och där hade han ätit bland annat ostron grillade på stranden. Han var tidigare intravenös missbrukare, men hade slutat med det för tre år sedan.",
     "clinical_findings": {
         "general_condition": "Välnärd, svarar tydligt på frågor",
         "scleral_icterus": true,
@@ -19,17 +19,23 @@
             {
                 "test": "B-Leukocyter",
                 "value": "4,0 x 10^9/L",
-                "normal": "3,5 - 8,8 x 10^9/L"
+                "normal": "3,5 - 8,8 x 10^9/L",
+                "analysprincip": "Automatisk räkning i blodprov",
+                "klinisk_tolkning": "Lågt antal vita blodkroppar, kan indikera en infektion eller benmärgssjukdom"
             },
             {
                 "test": "B-Trombocyter",
                 "value": "88 x 10^9/L",
-                "normal": "145 - 348 x 10^9/L"
+                "normal": "145 - 348 x 10^9/L",
+                "analysprincip": "Automatisk räkning i blodprov",
+                "klinisk_tolkning": "Lågt antal blodplättar, kan öka risken för blödning"
             },
             {
                 "test": "P-Natrium",
                 "value": "132 mmol/L",
-                "normal": "137 - 145 mmol/L"
+                "normal": "137 - 145 mmol/L",
+                "analysprincip": "Kemisk analys av blodprov",
+                "klinisk_tolkning": "Lågt natriumvärde, kan indikera vätskeretention eller njurproblem" 
             },
             {
                 "test": "P-Kalium",

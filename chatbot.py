@@ -16,8 +16,41 @@ with open("instructions.json", encoding="utf-8") as f:
 with open("matspjälkning_II.json", encoding="utf-8") as f:
     case = json.load(f)
 
-# Build system prompt from instructions and case
-system_prompt = " ".join(instructions["rules"]) + f"\nPatient: {case['presentation']}"
+# Build a richer system prompt from instructions and case data
+def build_system_prompt(instructions, case):
+    rules_text = " ".join(instructions["rules"])  # svenska regler
+    # Extract structured case data
+    presentation = case.get("presentation", "")
+    background = case.get("background", "")
+    clinical = case.get("clinical_findings", {})
+    labs = case.get("lab_results", {})
+    # Pick only the general vitals (ska kunna lämnas ut tidigt)
+    vitals = []
+    for key in ["pulser", "kroppstemperatur", "blodtryck", "syresättning"]:
+        if key in labs:
+            vitals.append(f"- {key.capitalize()}: {labs[key]}")
+    vitals_text = "\n".join(vitals)
+
+    # Important: enforce factual consistency without revealing more than allowed
+    consistency_clause = (
+        "Faktaintegritet: Du får aldrig motsäga fallbeskrivningens fakta. "
+        "Om studenten frågar om exempelvis resor ska svaret överensstämma med bakgrunden. "
+        "Avslöja endast information enligt reglerna ovan."
+    )
+
+    # Compose the system prompt (svenska)
+    prompt = (
+        f"{rules_text}\n\n"
+        f"Fall:\n"
+        f"- Presentation: {presentation}\n"
+        f"- Bakgrund: {background}\n"
+        f"- Kända kliniska fynd (internt faktaunderlag, avslöja endast enligt reglerna): {json.dumps(clinical, ensure_ascii=False)}\n"
+        f"- Allmänna vitalparametrar (kan lämnas först vid efterfrågan):\n{vitals_text}\n\n"
+        f"{consistency_clause}"
+    )
+    return prompt
+
+system_prompt = build_system_prompt(instructions, case)
 
 # Maintain conversation history
 def ask_patient(question, history):
@@ -30,7 +63,7 @@ def ask_patient(question, history):
     response = client.chat.completions.create(
         model=MODEL,
         messages=messages,
-        temperature=0.5
+        temperature=0.2  # lägre temp för bättre konsekvens
     )
     return response.choices[0].message.content
 
