@@ -25,12 +25,14 @@
             {
                 "test": "B-Trombocyter",
                 "value": "88 x 10^9/L",
-                "normal": "145 - 348 x 10^9/L"
+                "normal": "145 - 348 x 10^9/L",
+                "klinisk_tolkning": "Lågt antal blodplättar, kan öka risken för blödning"
             },
             {
                 "test": "P-Natrium",
                 "value": "132 mmol/L",
-                "normal": "137 - 145 mmol/L"
+                "normal": "137 - 145 mmol/L",
+                "reference_url": "http://analysportalen-labmedicin.skane.se/viewAnalys.asp?Nr=3688"
             },
             {
                 "test": "P-Kalium",
