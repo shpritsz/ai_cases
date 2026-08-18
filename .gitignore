@@ -1,2 +1,9 @@
 .env
 conversation_*.txt
+__pycache__/
+build/
+dist/
+*.spec
+releases/
+build_zip_*/
+dist_zip_*/

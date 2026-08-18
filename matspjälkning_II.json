@@ -20,21 +20,18 @@
                 "test": "B-Leukocyter",
                 "value": "4,0 x 10^9/L",
                 "normal": "3,5 - 8,8 x 10^9/L",
-                "analysprincip": "Automatisk räkning i blodprov",
                 "klinisk_tolkning": "Lågt antal vita blodkroppar, kan indikera en infektion eller benmärgssjukdom"
             },
             {
                 "test": "B-Trombocyter",
                 "value": "88 x 10^9/L",
                 "normal": "145 - 348 x 10^9/L",
-                "analysprincip": "Automatisk räkning i blodprov",
                 "klinisk_tolkning": "Lågt antal blodplättar, kan öka risken för blödning"
             },
             {
                 "test": "P-Natrium",
                 "value": "132 mmol/L",
                 "normal": "137 - 145 mmol/L",
-                "analysprincip": "Kemisk analys av blodprov",
                 "klinisk_tolkning": "Lågt natriumvärde, kan indikera vätskeretention eller njurproblem" 
             },
             {
