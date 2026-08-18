@@ -25,69 +25,78 @@
             {
                 "test": "B-Trombocyter",
                 "value": "88 x 10^9/L",
-                "normal": "145 - 348 x 10^9/L",
-                "klinisk_tolkning": "Lågt antal blodplättar, kan öka risken för blödning"
+                "normal": "145 - 348 x 10^9/L"
             },
             {
                 "test": "P-Natrium",
                 "value": "132 mmol/L",
-                "normal": "137 - 145 mmol/L",
-                "klinisk_tolkning": "Lågt natriumvärde, kan indikera vätskeretention eller njurproblem" 
+                "normal": "137 - 145 mmol/L"
             },
             {
                 "test": "P-Kalium",
                 "value": "3,8 mmol/L",
-                "normal": "3,5 - 4,4 mmol/L"
+                "normal": "3,5 - 4,4 mmol/L",
+                "reference_url": "http://analysportalen-labmedicin.skane.se/viewAnalys.asp?Nr=3684"
             },
             {
                 "test": "P-Glukos",
                 "value": "5,2 mmol/L",
-                "normal": "4,2 - 6,0 mmol/L"
+                "normal": "4,2 - 6,0 mmol/L",
+                "reference_url": "http://analysportalen-labmedicin.skane.se/viewAnalys.asp?Nr=3696"
             },
             {
                 "test": "P-Kreatinin",
                 "value": "999 µmol/L",
-                "normal": "60 - 105 µmol/L"
+                "normal": "60 - 105 µmol/L",
+                "reference_url": "http://analysportalen-labmedicin.skane.se/viewAnalys.asp?Nr=3700"
             },
             {
                 "test": "P-Alkaliskt fosfatas",
                 "value": "5,5 µkat/L",
-                "normal": "0,70 – 1,9 µkat/L"
+                "normal": "0,70 - 1,9 µkat/L",
+                "reference_url": "http://analysportalen-labmedicin.skane.se/viewAnalys.asp?Nr=3676"
             },
             {
                 "test": "P-PK(INR)",
                 "value": "2,1 INR",
-                "normal": "0,9 - 1,2 INR"
+                "normal": "0,9 - 1,2 INR",
+                "reference_url": "http://analysportalen-labmedicin.skane.se/viewAnalys.asp?Nr=2352"
             },
             {
                 "test": "P-bilirubin",
                 "value": "105 µmol/L",
-                "normal": "5 - 25 µmol/L"
+                "normal": "5 - 25 µmol/L",
+                "reference_url": "http://analysportalen-labmedicin.skane.se/viewAnalys.asp?Nr=3678"
             },
             {
                 "test": "P-bilirubin konjugerat",
                 "value": "17 µmol/L",
-                "normal": "< 6 µmol/L"
+                "normal": "< 6 µmol/L",
+                "reference_url": "http://analysportalen-labmedicin.skane.se/viewAnalys.asp?Nr=3693"
             },
             {
                 "test": "ASAT",
                 "value": "5,7 µkat/L",
-                "normal": "0,25 - 0,75 µkat/L"
+                "normal": "0,25 - 0,75 µkat/L",
+                "reference_url": "http://analysportalen-labmedicin.skane.se/viewAnalys.asp?Nr=3677"
             },
             {
                 "test": "ALAT",
                 "value": "14,5 µkat/L",
-                "normal": "0,15 - 1,1 µkat/L"
+                "normal": "0,15 - 1,1 µkat/L",
+                "reference_url": "http://analysportalen-labmedicin.skane.se/viewAnalys.asp?Nr=3675"
             },
             {
                 "test": "Influensa A/B",
                 "value": "Negativ",
-                "normal": "Negativ/positiv"
+                "normal": "Negativ/positiv",
+                "reference_url": "http://analysportalen-labmedicin.skane.se/viewAnalys.asp?Nr=2317"
             },
             {
                 "test": "HIV, snabbtest",
                 "value": "Negativ",
-                "normal": "Negativ/positiv"
+                "normal": "Negativ/positiv",
+                "reference_url": ""
             }
         ]
     }
