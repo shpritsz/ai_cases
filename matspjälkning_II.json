@@ -2,6 +2,11 @@
     "name": "Man, 32 år",
     "presentation": "En man i 30-års åldern kom in till sjukvården med gulaktig hy.",
     "background": "Symptomen hade föregåtts av fem dagars trötthet, illamående och influensaliknande symptom. Patienten beskrev också att avföringen var ljus (kittfärgad) och urinen mörk. Däremot hade patienten inte någon magsmärta, hade inte kräkts, ingen diarré eller kliande utslag. Patienten hade inte några insektsbett eller haft kontakt med någon sjuk person. Ingen speciell mat hade konsumerats den senaste veckan, men han hade varit utomlands (Brasilien) och där hade han ätit bland annat ostron grillade på stranden. Han var tidigare intravenös missbrukare, men hade slutat med det för tre år sedan.",
+    "study_questions": [
+        "Vad i beskrivningen kan direkt leda till misstanke om vad patienten har drabbats av?",
+        "Beskriv mer ingående vilka analyser som saknas i listan nedan och hur de analyserna kan besvara frågan om vad patienten har drabbats av.",
+        "Varför är informationen om att patienten tidigare varit intravenös missbrukare relevant?"
+    ],
     "clinical_findings": {
         "general_condition": "Välnärd, svarar tydligt på frågor",
         "scleral_icterus": true,
@@ -20,13 +25,15 @@
                 "test": "B-Leukocyter",
                 "value": "4,0 x 10^9/L",
                 "normal": "3,5 - 8,8 x 10^9/L",
-                "klinisk_tolkning": "Lågt antal vita blodkroppar, kan indikera en infektion eller benmärgssjukdom"
+                "klinisk_tolkning": "Lågt antal vita blodkroppar, kan indikera en infektion eller benmärgssjukdom",
+                "reference_url": "http://analysportalen-labmedicin.skane.se/viewAnalys.asp?Nr=2303"
             },
             {
                 "test": "B-Trombocyter",
                 "value": "88 x 10^9/L",
                 "normal": "145 - 348 x 10^9/L",
-                "klinisk_tolkning": "Lågt antal blodplättar, kan öka risken för blödning"
+                "klinisk_tolkning": "Lågt antal blodplättar, kan öka risken för blödning",
+                "reference_url": "http://analysportalen-labmedicin.skane.se/viewAnalys.asp?Nr=2438"
             },
             {
                 "test": "P-Natrium",
