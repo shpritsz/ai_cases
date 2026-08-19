@@ -277,7 +277,8 @@ def print_role_based_answer(answer):
         text = re.sub(r"^(Handledare|Lärare|Tutor):", "", stripped, flags=re.IGNORECASE).strip()
         print("\033[1mHandledare:\033[0m", text, "\n")
     else:
-        print("Patienten:", answer.strip(), "\n")
+        text = re.sub(r"^Patienten:", "", stripped, flags=re.IGNORECASE).strip()
+        print("Patienten:", text, "\n")
 
 # Summarize history after every 10 exchanges
 def summarize_history(history):
@@ -323,6 +324,7 @@ if __name__ == "__main__":
             break
         try:
             answer = ask_patient(question, history)
+            print()
             print_role_based_answer(answer)
             # Add user and assistant turns to history
             history.append({"role": "user", "content": question})
